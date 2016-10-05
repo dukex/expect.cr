@@ -1,32 +1,52 @@
 # expect.cr
 
-TODO: Write a description here
+expect.cr enabled the expect syntax to your specs
+
 
 ## Installation
-
 
 Add this to your application's `shard.yml`:
 
 ```yaml
 dependencies:
   expect.cr:
-    github: [your-github-name]/expect.cr
+    github: dukex/expect.cr
 ```
 
 
 ## Usage
 
+Require expect in your spec file
 
 ```crystal
-require "expect.cr"
+require "expect"
 ```
 
+Use expect syntax like in rspec
 
-TODO: Write usage instructions here
+```crystal
+
+describe "My Specs" do
+  it "expects 1 is equal 1" do
+    expect(1).to eq(7)
+  end
+
+  it "expects nil is nil" do
+    expect(nil).to be_nil
+  end
+
+  it "expects 5 is not 4" do
+    expect(5).not_to eq(4)
+  end
+end
+```
 
 ## Development
 
-TODO: Write development instructions here
+```
+$ crystal deps
+$ crystal spec
+```
 
 ## Contributing
 
@@ -38,4 +58,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [[your-github-name]](https://github.com/[your-github-name]) Duke - creator, maintainer
+- [[dukex]](https://github.com/dukex) Duke - creator, maintainer
