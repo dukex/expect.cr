@@ -1,0 +1,7 @@
+name: expect.cr
+version: 0.1.0
+
+authors:
+  - Duke <emerson.almeida@youse.com.br>
+
+license: MIT
