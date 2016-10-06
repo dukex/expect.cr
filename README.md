@@ -9,7 +9,7 @@ Add this to your application's `shard.yml`:
 
 ```yaml
 dependencies:
-  expect.cr:
+  expect:
     github: dukex/expect.cr
 ```
 
