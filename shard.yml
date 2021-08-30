@@ -5,3 +5,4 @@ authors:
   - Duke <emersonalmeidax@gmail.com>
 
 license: MIT
+crystal: ">= 0.35.0, < 2.0.0"
